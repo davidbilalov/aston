@@ -1,5 +1,3 @@
-import java.util.Objects;
-
 public class MyHashMap<K, V> {
 
     private static final int MIN_CAPACITY = 16;
