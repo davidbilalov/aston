@@ -17,7 +17,7 @@ public class MyHashMap<K, V> {
     }
 
     private int hash(K key) {
-
+        if (key == null) return 0;
         return (key.hashCode() & 0x7fffffff) % this.capacity;
     }
 
